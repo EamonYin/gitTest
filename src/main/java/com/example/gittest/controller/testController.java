@@ -15,7 +15,6 @@ public class testController {
     @RequestMapping(value = "/test", method = RequestMethod.POST)
     @ResponseBody
     public String getMallProductLstForMLM(@RequestBody String input) {
-        String a = "aaaaa";
-        return a;
+        return "Hello World!";
     }
 }
